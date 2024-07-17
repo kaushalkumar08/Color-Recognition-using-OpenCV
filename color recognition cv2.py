@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
 
-# Define color ranges in HSV
+# Define color ranges in HSV.
+# You can define any number of colors.
 color_ranges = {
     "red": ([0, 100, 100], [10, 255, 255]),
     "green": ([40, 40, 40], [80, 255, 255]),
